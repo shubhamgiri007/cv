@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SKG-Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://shivendrasaurav.github.io/Fluent-Design-For-Web/fluent.js"></script>
+        <link href="https://shivendrasaurav.github.io/Fluent-Design-For-Web/fluent.css" type="text/css" rel="stylesheet">
+        <link href="https://shivendrasaurav.github.io/Fluent-Design-For-Web/Icons/css/icons.css" type="text/css" rel="stylesheet">
+        <link href="customstyles.css" type="text/css" rel="stylesheet">
+    
+    <script>
+        
+        function openmod1(){
+                document.getElementById("mod1").style.display="Block";
+                document.getElementById("body").style.filter="saturate(125%) blur(10px)";
+            }
+            function closemod1(){
+                document.getElementById("mod1").style.display="None";
+                document.getElementById("body").style.filter="blur(0px)";
+            }
+            function showsidenav(){
+                if(screen.width < 640){
+                    document.getElementById("sidenav").style.display="Block";
+                    document.getElementById("content").style.filter="saturate(125%) blur(10px)";
+                }
+            }
+            function hidesiednav(){
+                document.getElementById("sidenav").style.display="None";
+                document.getElementById("content").style.filter="blur(0px)";
+            }
+            function opendialog1(){
+                document.getElementById("dialog1").style.display="Block";
+            }
+            function closedialog1(){
+                document.getElementById("dialog1").style.display="None";
+            }
+        
+    </script>
+
+    </head>
+
+    <body>
+        <div class="column large12 medium12 pivot_container primary_inverted" style="position: fixed; margin-top: -10px; width: 99%;">
+            <a class="pivot_button left" onclick="showsidenav();" style="padding: 0px; font-size: 38px;">SKG</a>
+            <a href="#contact" style="font-size: 20px;" class="pivot_button right small0">Contact Me</a>
+            <a href="#portfolio" style="font-size: 20px;" class="pivot_button right small0"> My Portfolio</a>
+            <a href="#skills" style="font-size: 20px;" class="pivot_button right small0">My Skills</a>
+            <a href="#about" style="font-size: 20px;" class="pivot_button right small0">About Me</a>
+            <a href="#home" style="font-size: 20px;" class="pivot_button right small0">My Bio</a>
+        </div>
+
+        <div class="sidepanel_container primary_inverted" id="sidenav">
+            <div class="sidepanel_content zi3 right">
+                <br><br>
+                <button class="primary_red right ta_center" onclick="hidesiednav();" style="padding: 10px; padding-left: 20px; padding-right: 20px;">X</button><br><br><br><br>
+                <div class="page_container">
+                    <a href="#home" style="font-size: 28px;" onclick="hidesiednav();"><div class="panel_item">My Bio</div></a>
+                    <a href="#about" style="font-size: 28px;" onclick="hidesiednav();"><div class="panel_item">About Me</div></a>
+                    <a href="#skills" style="font-size: 28px;" onclick="hidesiednav();"><div class="panel_item">My skills</div></a>
+                    <a href="#portfolio" style="font-size: 28px;" onclick="hidesiednav();"><div class="panel_item">My Portfolio</div></a>
+                    <a href="#contact" style="font-size: 28px;" onclick="hidesiednav();"><div class="panel_item">Contact Me</div></a>
+                </div>
+            </div>        
+        </div>
+
+        <div id="content">
+            <div class="page_container fsbg parrallax" id="home">
+                <div class="iam">
+                    <h1 class="anim1">This is,</h1>
+                    <h3 class="anim2">Shubham Kumar Giri</h3>
+                    <h5 class="anim3">Full Stack Developer</h5>
+                </div>
+            </div>
+            <div id="about" class="page_container" style="padding: 16px;" >
+                <br><br><br><br>
+                <h2>About Me</h2>
+                <p style="font-size: 24px;">
+                    Currently pusruing B.Tech in CSE from REVA University. <br>
+                    Ability to solve any programming or design problem. <br>
+                    My interest revolves around discovering things. <br>
+                    I like to tackle problems and get a result. <br>
+                    What you want is what I do.
+                </p>
+                <br><br><br><br><br><br>
+            </div>
+            <div id="skills" class="page_container primary_white zi2">
+                <br><br>
+                <div style="padding: 16px;" class="column large6 medium6 small12">
+                    <h2>Skills</h2>
+                    <p style="font-size: 24px;">
+                        Good at solving problems. <br>
+                        Lead many projects in the past. <br>
+                        Possess leadership. <br>
+                        Always contibuting towrds the society. <br>
+                        Building a nation great. <br>
+                    </p>
+                </div>
+                <div style="padding: 16px;" class="column large6 medium6 small12">
+                    <h2>My Works</h2>
+                    <p style="text-align: left;">
+                        <button class="primary_blue " >
+                            UI Development</span>
+                        </button>                    
+                        <button class="primary_blue " >
+                            Front End Web Development</span>
+                        </button>                    
+                        <button class="primary_blue " >
+                            Algorithm Analysis</span>
+                        </button>                    
+                        <button class="primary_blue " >
+                             Data Structures</span>
+                        </button>                    
+                        <button class="primary_blue " >
+                            Handling Multimedia</span>
+                        </button>                    
+                        <button class="primary_blue " >
+                             Webpages </span>
+                        </button>
+                        <button class="primary_blue " >
+                            Developing JavaScript </span>
+                        </button>
+                        <button class="primary_blue " >
+                             C/C++ Applications</span>
+                        </button>
+                        <button class="primary_blue " >
+                            Developing Dynamic Pages</span>
+                        </button>
+                        <button class="primary_blue " >
+                             Python </span>
+                        </button>
+                    </p>
+                    <br>
+                </div>
+                <br><br>
+            </div>
+            <br><br><br><br>
+            <div class="page_container" id="portfolio">
+                <h2>My Portfolio</h2>
+                <p style="font-size: 24px;">
+                    Includes all the projects I have worked on. <br>
+                    So far I've developed some of the major projects <br>
+                    in web development.
+                </p>
+                <div class="page_container">
+                    
+                    <div class="column large4 medium6 small12">
+                        <div class="overlay_container zi3 primary_green center">
+                            <img class="overlay_content" src="./potfolio_img/tcd.png">
+                            <p class="overlay" style="font-size: 20px; text-align: justify;">
+                                    <br><br>
+                                    Digital marketing.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column large4 medium6 small12">
+                        <div class="overlay_container zi3 primary_inverted center">
+                            <img class="overlay_content" src="./potfolio_img/fdfw.png">
+                            <p class="overlay" style="font-size: 20px; text-align: justify;">
+                                    <br><br>
+                                    Games for fun.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column large4 medium6 small12">
+                        <div class="overlay_container zi3 primary_red center">
+                            <img class="overlay_content" src="./potfolio_img/tedx.png">
+                            <p class="overlay" style="font-size: 20px; text-align: justify;">
+                                    <br><br>
+                                    Web Development projects.
+                            </p>
+                        </div>
+                    </div>
+
+                    
+                    <br><br>
+
+                    
+                    <div class="column large4 medium6 small12">
+                        <div class="overlay_container zi3 primary_blue center">
+                            <img class="overlay_content" src="./potfolio_img/dscreva.png">
+                            <p class="overlay" style="font-size: 20px; text-align: justify;">
+                                    <br><br>
+                                    Bots for Discord
+                                    
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column large4 medium6 small12">
+                        <div class="overlay_container zi3 primary_white center">
+                            <img class="overlay_content" src="./potfolio_img/calc.png">
+                            <p class="overlay" style="font-size: 20px; text-align: justify;">
+                                    <br><br>
+                                    Back End Programming.
+                                    
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column large4 medium6 small12">
+                        <div class="overlay_container zi3 primary_yellow center">
+                            <img class="overlay_content" src="./potfolio_img/ttt.png">
+                            <p class="overlay" style="font-size: 20px; text-align: justify;">
+                                    <br><br>
+                                    Data Analyst.
+                                    
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            
+            <br><br><br><br>
+
+            <div class="primary_inverted" style="width: 100%;" id="contact">
+                <br><br>
+                <h2>Stay in Touch :</h2>
+                <div class="column large6 medium6 small12">
+                    <div style="color: #FFF;" class="tooltip_container">
+                        <h4>Mail Me</h4>
+                        <span class="tooltip_info">shhubhamwwe9@gmail.com</span>
+                    </div>
+                    <div style="color: #FFF;" class="tooltip_container">
+                        <h4>Contact Me</h4>
+                    </div>
+                    
+                </div>
+                <div class="column large6 medium6 small12">
+                    <h4>Social Contacts</h4>
+                    <a href="https://github.com/shubhamgiri007"><img src="./portfolio_follow/github.png" class="icon"></a>&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/shubhamgiri007/"><img src="./portfolio_follow/instagram.png" class="icon"></a>&nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/in/shubham-kumar-giri-726575132/"><img src="./portfolio_follow/linkedin.png" class="icon"></a>&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/shubham.giri.39"><img src="./portfolio_follow/facebook.png" class="icon"></a>&nbsp;&nbsp;
+                </div>
+                <br><br><br><br>
+            </div>
+
+        </div>
+    </body>
+</html>
