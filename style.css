@@ -20,8 +20,8 @@
 }
 
 /*Typography*/
-h1{font-size: 400%; font-weight: 200; margin: 10px; margin-left: 0px; text-align: left;}
-h2{font-size: 350%; font-weight: 200; margin: 10px; margin-left: 0px; text-align: left;}
+h1{font-size: 400%; font-weight: 200; margin: 10px; margin-left: 0px; text-align: left; color: rebeccapurple;}
+h2{font-size: 350%; font-weight: 200; margin: 10px; margin-left: 0px; text-align: left; color: red;}
 h3{font-size: 300%; font-weight: 200; margin: 10px; margin-left: 0px; text-align: left;}
 h4{font-size: 250%; font-weight: 200; margin: 10px; margin-left: 0px; text-align: left;}
 h5{font-size: 225%; font-weight: 200; margin: 10px; margin-left: 0px; text-align: left;}
@@ -36,6 +36,7 @@ a,p,pre{font-size: 16px; font-weight: 100;}
 .page_container,.nav_container{
     display: block;
     width: 88%;
+    color: rebeccapurple;
     margin: auto;
 }
 footer{position: relative;}
@@ -120,8 +121,8 @@ footer{position: relative;}
 .zi4:hover{box-shadow:  12px 0 24px 0 rgba(0, 0, 0, 0.4), 0 6px 18px 0 rgba(0, 0, 0, 0.38); transition: 250ms;}
 
 /*Colors*/
-.primary_blue{background: #0065AF; color:#FFF;}
-.primary_green{background: #28B85B; color:#FFF;}
+.primary_blue{background: #0065AF; color:red;}
+.primary_green{background: #28B85B; color:black;}
 .primary_red{background: #e50c55; color:#FFF;}
 .primary_yellow{background: #CCC908; color:#1A1A1A;}
 .primary_inverted{background: #1E1E1E; color:#FFF;}
@@ -142,7 +143,7 @@ a:hover:before,.link:hover:before{position: absolute; left:0; bottom: 0; width: 
 /*Buttons*/
 
 button,.button{
-    background: #E1E1E1;
+    background: blanchedalmond;
     border: none;
     padding: 12px;
     border: none;
@@ -167,6 +168,7 @@ button.icon:hover,.button.icon:hover{border: 1px solid rgba(0, 0, 0, 0.4);}
 
 /*Frosted Buttons*/
 .frost_container {
+    color: blue;
     position: relative;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -238,7 +240,7 @@ select{
     width: 80%;
     padding: 1.5%;
     border: 1.5px solid rgba(0, 0, 0, 0.4);
-    background: #FFF;
+    background: burlywood;
 }
 select:hover{border: 1.5px solid rgba(0, 0, 0, 0.6);}
 select:focus{border: 1.5px solid rgba(6, 167, 221, 1);}
@@ -676,5 +678,8 @@ li.navigation_item::before{display: none;}
 .nav_disp{padding-right: 10px;}
 
 li{font-size: 14px;}
+.page_container h2{
+    color: rebeccapurple;
+}
 
 
