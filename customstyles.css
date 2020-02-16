@@ -17,7 +17,7 @@
 @media (min-width: 640px) and (max-width: 1023px) {
     .fsbg{
         background: url('background_temp_phone.jpg');
-        background-size: cover;
+        background-size: auto;
         font-weight: bolder;
         padding-bottom: 200%;
         width: 100%;
