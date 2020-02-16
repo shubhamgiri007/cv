@@ -2,7 +2,8 @@
     .fsbg{
         background: url('background_temp.jpg');
         filter: grayscale(100%);
-        background-size: cover;
+        
+        background-size: 1000px;
         padding-bottom: 50%;
         width: 100%;
     }
